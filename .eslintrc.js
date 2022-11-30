@@ -15,5 +15,6 @@ module.exports = {
   },
   rules: {
     'linebreak-style': ['error', 'windows'],
+    "no-param-reassign": [2, { "props": false }]
   },
 };
